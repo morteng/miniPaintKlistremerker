@@ -3,7 +3,7 @@
 var config = {};
 
 config.TRANSPARENCY = true;
-config.TRANSPARENCY_TYPE = 'grey'; //squares, green, grey
+config.TRANSPARENCY_TYPE = 'green'; //squares, green, grey
 config.LANG = 'en';
 config.WIDTH = null;
 config.HEIGHT = null;

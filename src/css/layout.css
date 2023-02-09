@@ -250,8 +250,8 @@ body .sp-preview{
 }
 .undo_button {
 	display: block;
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	top: 0;
 	border: 0;
 	outline: none;
@@ -260,6 +260,8 @@ body .sp-preview{
 	background: url(images/icons/undo.svg) no-repeat center center;
 	background-size: auto 25px;
 	margin-left: 10px;
+	margin-right: 10px;
+	float:right;
 }
 .undo_button:hover {
 	background-color: transparent;
