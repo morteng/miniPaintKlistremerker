@@ -1,3 +1,77 @@
+#select{
+	display: none;
+}
+
+#selection{
+	display: none;
+}
+
+#brush {
+	display: none;
+}
+
+#pencil {
+	display: none;
+}
+#pick_color {
+	display: none;
+}
+
+#magic_erase {
+	display: none;
+}
+
+#fill {
+	display: none;
+}
+#shape {
+	display: none;
+}
+#line {
+	display: none;
+}
+
+#arrow {
+	display: none;
+}
+#rectangle {
+	display: none;
+}
+#ellipse {
+	display: none;
+}
+#media {
+	display: none;
+}
+#text {
+	display: none;
+}
+#gradient {
+	display: none;
+}
+#clone {
+	display: none;
+}
+#blur {
+	display: none;
+}
+#sharpen {
+	display: none;
+}
+#desaturate {
+	display: none;
+}
+#bulge_pinch {
+	display: none;
+}
+#animation {
+	display: none;
+}
+#polygon {
+	display: none;
+}
+
+
 .wrapper{
 	display: -ms-grid;
 	display: grid;
@@ -176,8 +250,8 @@ body .sp-preview{
 }
 .undo_button {
 	display: block;
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 	top: 0;
 	border: 0;
 	outline: none;
@@ -767,3 +841,4 @@ canvas{
 		margin-top: 1rem;
 	}
 }
+
