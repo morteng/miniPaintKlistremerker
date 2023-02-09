@@ -3,7 +3,7 @@
 	display: grid;
 	margin: 0;
 	position: fixed; /* dont change it, vh does not work on mobiles with bottom footer */
-	top: 30px;
+	top: 0px;
 	right: 0;
 	left: 0;
 	bottom: 5px;
@@ -48,7 +48,7 @@
 	float: right;
 }
 .grey{
-	color:grey;
+	color:black;
 }
 .noselect {
 	-webkit-touch-callout: none; /* iOS Safari */
@@ -62,8 +62,8 @@
 	position: relative;
 	background-color: rgba(255, 255, 255, 0.2);
 	background-color: var(--block-background-color);
-	border: 1px solid rgba(0, 0, 0, 0.5);
-	border: 1px solid var(--border-color);
+	border: 0px solid rgba(0, 0, 0, 0.5);
+	border: 0px solid var(--border-color);
 	margin-bottom: 10px;
 	user-select: none;
 	border-radius: 4px;
@@ -142,7 +142,7 @@ body .sp-preview{
 
 .logo{
 	position: relative;
-	display: inline-block;
+	display: none;
 	height: 30px;
 	width: 110px;
 	padding: 5px 5px 5px 36px;
@@ -175,7 +175,7 @@ body .sp-preview{
 	font-weight:bold;
 }
 .undo_button {
-	display: none;
+	display: block;
 	width: 50px;
 	height: 50px;
 	top: 0;
@@ -335,7 +335,7 @@ IMPORTANT: any new icon should also must be added on /service-worker.js + its ve
 	-ms-grid-column: 3;
 	grid-area: sidebar_right;
 	z-index: 2;
-	display: flex;
+	display: none;
 	flex-direction: column;
 	transition: 0.2s;
 	overflow-x: hidden;
